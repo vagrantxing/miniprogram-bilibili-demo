@@ -1,0 +1,4 @@
+<view class='my_title'>
+  <text class='title'>bilibili</text>
+  <view class='down_app'>下载 APP</view>
+</view>

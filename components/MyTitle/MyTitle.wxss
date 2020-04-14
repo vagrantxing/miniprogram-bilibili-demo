@@ -1,0 +1,14 @@
+.my_title{
+  display: flex ;
+  justify-content: space-between ;
+  align-items: center ;
+  font-size: 30rpx ;
+  padding: 30rpx ;
+}
+.down_app{
+  padding: 10rpx 20rpx;
+  font-size:24rpx;
+  background-color: pink ;
+  color: #fff ;
+  border-radius: 10rpx ;
+}
