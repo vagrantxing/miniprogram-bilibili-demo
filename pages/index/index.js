@@ -25,7 +25,7 @@ Page({
   getNavList(){
     let that = this ;
     wx.request({
-      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/navList',
+      url: 'http://mock-api.com/mnEe4VnJ.mock/navList',
       success(res){
         if(res.data.code === 0){
           that.setData({
@@ -42,7 +42,7 @@ Page({
   getSwiperList(){
     let that = this ;
     wx.request({
-      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/swiperList',
+      url: 'http://mock-api.com/mnEe4VnJ.mock/swiperList',
       success(res){
        if(res.data.code === 0){
          that.setData({
@@ -59,11 +59,11 @@ Page({
   getVideosList(){
     let that = this ;
     wx.request({
-      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/videosList',
+      url: 'http://mock-api.com/mnEe4VnJ.mock/videoList',
       success(res){
         if(res.data.code === 0){
           that.setData({
-            videosList: res.data.data.videosList
+            videosList: res.data.data.videoList
           })
         }
       }
